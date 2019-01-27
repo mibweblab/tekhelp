@@ -33,6 +33,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+
           <form onSubmit={this.handleSubmit}>
             <label htmlFor="name">Enter your name: </label>
             <input
@@ -46,7 +47,7 @@ class App extends Component {
           <p>{this.state.greeting}</p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="/auth/google"
             target="_blank"
             rel="noopener noreferrer"
           >
